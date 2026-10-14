@@ -86,11 +86,8 @@ Passwords are hashed with bcrypt. Logins lock after 5 failed attempts. Routes ar
 
 | Member | Area | Main files |
 |---|---|---|
-| [Member 1] | Backend: accounts, registrar, database | `backend/src/models`, `routes/auth.js`, `routes/registrar.js`, tests |
-| [Member 2] | Backend: queue, documents, cashier, setup | `routes/queue.js`, `routes/documents.js`, config, seeders |
-| [Member 3] | Frontend: student pages, login, layout | `pages/StudentPages.jsx`, `pages/Auth.jsx`, `App.jsx` |
-| [Member 4] | Frontend: staff, admin and queue pages, styling | `pages/StaffPages.jsx`, `pages/QueuePages.jsx`, `ui.jsx` |
-
-## Course
-
-[Course code and title], [School name], [Instructor name], [School year and term].
+| Devera | Backend: accounts, registrar, database | `backend/src/models`, `routes/auth.js`, `routes/registrar.js`, tests |
+| Dadulla | Backend: queue, documents, cashier, setup | `routes/queue.js`, `routes/documents.js`, config, seeders |
+| Asuncion | Frontend: student pages, login, layout | `pages/StudentPages.jsx`, `pages/Auth.jsx`, `App.jsx` |
+| Batiancila | Frontend: staff, admin and queue pages, styling | `pages/StaffPages.jsx`, `pages/QueuePages.jsx`, `ui.jsx` |
+| Godoy | Documentation | Project documentation, system documentation, user manual |
