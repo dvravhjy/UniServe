@@ -16,6 +16,9 @@ function Shell({ title, children }) {
           <div className="my-5 h-0.5 w-16 bg-gold-500" />
           <p className="max-w-sm font-serif text-xl italic text-brand-100">University Student Management and Services System</p>
         </div>
+          <p className="mt-4 max-w-sm text-sm text-brand-200">Enrollment, clearance, grades and document requests, all in one place.</p>
+        </div>
+        <div className="text-xs text-brand-200"></div>
       </aside>
       <main className="flex flex-1 items-center justify-center bg-ivory-100 px-4 py-8">
         <div className="w-full max-w-md">
