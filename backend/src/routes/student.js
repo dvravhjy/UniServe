@@ -5,7 +5,7 @@ const {
 } = require('../models');
 const { authenticate, requireRole } = require('../middleware/auth');
 const { wrap, validate } = require('../middleware/common');
-const { getSettings, audit, notify } = require('../utils/helpers');
+const { getSettings, audit } = require('../utils/helpers');
 const { submitEnrollment } = require('../utils/enroll');
 
 const router = express.Router();
@@ -122,5 +122,3 @@ router.get('/balance', wrap(async (req, res) => {
 }));
 
 module.exports = router;
-// notify is re-exported for other modules that import it from here in tests
-module.exports.notify = notify;
